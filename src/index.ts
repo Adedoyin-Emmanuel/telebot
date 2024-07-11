@@ -17,4 +17,4 @@ export const launchVercel = async (req: VercelRequest, res: VercelResponse) => {
 	await production(req, res, bot);
 };
 
-IS_PRODUCTION && development(bot);
+!IS_PRODUCTION && development(bot);

@@ -5,10 +5,10 @@ import { logger } from "../utils";
 const development = async (bot: Telegraf<Context<Update>>) => {
 	const botInfo = (await bot.telegram.getMe()).username;
 
-	logger.log("Bot is running on dev mode");
-	logger.log(`${botInfo} deleting webhook`);
+	logger("Bot is running on dev mode");
+	logger(`${botInfo} deleting webhook`);
 	await bot.telegram.deleteWebhook();
-	logger.log(`${botInfo} starting polling`);
+	logger(`${botInfo} starting polling`);
 
 	await bot.launch();
 
