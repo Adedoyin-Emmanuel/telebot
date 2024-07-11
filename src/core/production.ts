@@ -3,6 +3,9 @@ import { logger } from "../utils";
 import { Context, Telegraf } from "telegraf";
 import { Update } from "telegraf/typings/core/types/typegram";
 import { VERCEL_URL } from "../constants";
+import { config } from "dotenv";
+
+config();
 
 const PORT = (process.env.PORT && parseInt(process.env.PORT, 10)) || 3000;
 
@@ -14,8 +17,7 @@ const production = async (
 	logger("Bot runninng in production mode");
 	logger(`setting webhook: ${VERCEL_URL}`);
 
-    if (!VERCEL_URL) {
-        
+	if (!VERCEL_URL) {
 		throw new Error("VERCEL_URL is not set.");
 	}
 
