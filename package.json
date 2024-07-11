@@ -3,12 +3,19 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.14.10",
+    "@vercel/ncc": "^0.38.1",
+    "debug": "^4.3.5",
+    "prettier": "^3.3.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@vercel/node": "^3.2.2",
+    "dotenv-cli": "^7.4.2",
     "telegraf": "^4.16.3"
   }
 }
