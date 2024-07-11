@@ -42,14 +42,14 @@ Telebot is a telegram bot starter kit. Built on [NodeJs](https://nodejs.org) and
 
 ## Contributing 🤝
 
-First off, thanks for taking the time to contribute! 🎉
+First off, thanks for taking the time to contribute!
 
-1. Star the repository 🌟, you can then create a fork
+1. Star the repository, you can then create a fork
 2. Clone your fork. Install the dependencies.
 3. Create a branch for your feature (You can as well create an issue on that, so you can link it to your PR)
 4. Commit your changes and push (Please give a descriptive message)
 5. Submit your PR
-6. Wait for your PR to be reviewed and merged 🚀
+6. Wait for your PR to be reviewed and merged
 
 ## Acknowledgments 🫡
 
@@ -63,5 +63,5 @@ Telebot takes heavy inspiration from the following projects:
 Telebot is [MIT-licensed](LICENSE) open-source software by [Adedoyin Emmanuel Adeniyi](https://github.com/adedoyin-emmanuel) and [contributors](https://github.com/adedoyin-emmanuel/telebot/graphs/contributors):
 
 <a href="https://github.com/Adedoyin-Emmanuel/telebot">
-  <img src="https://contrib.rocks/image?repo=adedoyin-emmanuel/telebot" />
+  <img src="https://contrib.rocks/image?repo=Adedoyin-Emmanuel/telebot" />
 </a>
