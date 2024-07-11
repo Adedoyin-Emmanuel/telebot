@@ -58,7 +58,7 @@ First off, thanks for taking the time to contribute!
 Telebot takes heavy inspiration from the following projects:
 
 - [`telegram-bot-vercel-boilerplate`](https://github.com/sollidy/telegram-bot-vercel-boilerplate) ([Mark Pavlov](https://github.com/sollidy))
-- - [`telegram-bot-boilerplate`](https://github.com/nezdemkovski/telegram-bot-boilerplate) ([Yuri Nezdemkovski](https://github.com/nezdemkovski))
+- [`telegram-bot-boilerplate`](https://github.com/nezdemkovski/telegram-bot-boilerplate) ([Yuri Nezdemkovski](https://github.com/nezdemkovski))
 
 ## License 📯
 
