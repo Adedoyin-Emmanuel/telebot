@@ -26,9 +26,10 @@
 		"telegraf": "^4.16.3"
 	},
 	"scripts": {
-		"dev": "bun ./src/index.ts",
-		"build": "",
-		"prettify": "",
-		"lint": ""
+		"dev": "DEBUG=bot* dotenv nodemon .",
+		"devWindows": "@powershell -Command $env:DEBUG='bot*';dotenv -- -- nodemon -e ts -x ts-node src/index.ts",
+		"build": "ncc build src/index.ts -o public -m",
+		"prettier": "prettier --write 'src/**/*.ts'",
+		"lint": "tsc --noemit"
 	}
 }
