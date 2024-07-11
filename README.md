@@ -30,11 +30,13 @@ Telebot is a telegram bot starter kit. Built on [NodeJs](https://nodejs.org) and
 
 5. Copy your bot token to the BOT_TOKEN `.env` in the `.env` file.
 
-6. Get your **Logsnag** API_KEY from <https://app.logsnag.com>
+6. Get your **Logsnag** **API_KEY** from <https://app.logsnag.com>
 
-7. Paste your LogSnag API_KEY from <https://app.logsnag.com> to the LOG_SNAG_TOKEN `.env` in the `.env` file.
+7. Paste your LogSnag **API_KEY** from <https://app.logsnag.com> to the LOGSNAG_TOKEN `.env` in the `.env` file.
 
-8. Run the bot
+8. Create a new project on **Logsnag**, copy the project name and then paste the project name in `LOGSNAG_PROJECT` `env` in the `.env` file.
+
+9. Run the bot
 
 ```bash
    npm run dev
