@@ -1,34 +1,35 @@
 {
-	"name": "telebot",
-	"version": "1.0.0",
-	"author": {
-		"email": "adedoyine535@gmail.com",
-		"name": "Adedoyin Emmanuel Adeniyi",
-		"url": "https://github.com/adedoyin-emmanuel"
-	},
-	"main": "src/index.ts",
-	"devDependencies": {
-		"@types/bun": "latest",
-		"@types/debug": "^4.1.12",
-		"@types/node": "^20.14.10",
-		"@vercel/ncc": "^0.38.1",
-		"debug": "^4.3.5",
-		"prettier": "^3.3.2"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
-	"dependencies": {
-		"@logsnag/node": "^1.0.1",
-		"@vercel/node": "^3.2.2",
-		"dotenv-cli": "^7.4.2",
-		"telegraf": "^4.16.3"
-	},
-	"scripts": {
-		"dev": "DEBUG=bot* dotenv nodemon .",
-		"devWindows": "@powershell -Command $env:DEBUG='bot*';dotenv -- -- nodemon -e ts -x ts-node src/index.ts",
-		"build": "ncc build src/index.ts -o public -m",
-		"prettier": "prettier --write 'src/**/*.ts'",
-		"lint": "tsc --noemit"
-	}
+  "name": "telebot",
+  "version": "1.0.0",
+  "author": {
+    "email": "adedoyine535@gmail.com",
+    "name": "Adedoyin Emmanuel Adeniyi",
+    "url": "https://github.com/adedoyin-emmanuel"
+  },
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.14.10",
+    "@vercel/ncc": "^0.38.1",
+    "debug": "^4.3.5",
+    "prettier": "^3.3.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@logsnag/node": "^1.0.1",
+    "@vercel/node": "^3.2.2",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.2",
+    "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "dev": "DEBUG=bot* dotenv nodemon .",
+    "devWindows": "@powershell -Command $env:DEBUG='bot*';dotenv -- -- nodemon -e ts -x ts-node src/index.ts",
+    "build": "ncc build src/index.ts -o public -m",
+    "prettier": "prettier --write 'src/**/*.ts'",
+    "lint": "tsc --noemit"
+  }
 }
