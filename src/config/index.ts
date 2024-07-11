@@ -1,5 +1,4 @@
 import bot from "./bot";
+import logsnag from "./logsnag";
 
-export {
-    bot,
-}
+export { bot, logsnag };
