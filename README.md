@@ -51,14 +51,14 @@ First off, thanks for taking the time to contribute! 🎉
 5. Submit your PR
 6. Wait for your PR to be reviewed and merged 🚀
 
-## Acknowledgments
+## Acknowledgments 🫡
 
 Telebot takes heavy inspiration from the following projects:
 
 - [`telegram-bot-vercel-boilerplate`](https://github.com/sollidy/telegram-bot-vercel-boilerplate) ([Mark Pavlov](https://github.com/sollidy))
 - - [`telegram-bot-boilerplate`](https://github.com/nezdemkovski/telegram-bot-boilerplate) ([Yuri Nezdemkovski](https://github.com/nezdemkovski))
 
-## License
+## License 📯
 
 Telebot is [MIT-licensed](LICENSE) open-source software by [Adedoyin Emmanuel Adeniyi](https://github.com/adedoyin-emmanuel) and [contributors](https://github.com/adedoyin-emmanuel/telebot/graphs/contributors):
 
