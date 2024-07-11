@@ -1,13 +1,12 @@
 {
 	"name": "telebot",
-	"module": "index.ts",
 	"version": "1.0.0",
-	"type": "module",
 	"author": {
 		"email": "adedoyine535@gmail.com",
 		"name": "Adedoyin Emmanuel Adeniyi",
 		"url": "https://github.com/adedoyin-emmanuel"
 	},
+	"main": "src/index.ts",
 	"devDependencies": {
 		"@types/bun": "latest",
 		"@types/debug": "^4.1.12",
