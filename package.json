@@ -17,5 +17,11 @@
     "@vercel/node": "^3.2.2",
     "dotenv-cli": "^7.4.2",
     "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "prettify": "",
+    "lint": ""
   }
 }
