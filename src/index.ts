@@ -13,7 +13,7 @@ bot.on("message", greeting());
 
 bot.catch(errorHandler);
 
-export const launchVercel = async (req: VercelRequest, res: VercelResponse) => {
+export const startVercel = async (req: VercelRequest, res: VercelResponse) => {
 	await production(req, res, bot);
 };
 
