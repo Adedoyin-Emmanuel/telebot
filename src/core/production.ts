@@ -7,7 +7,7 @@ import { config } from "dotenv";
 
 config();
 
-const PORT = (process.env.PORT && parseInt(process.env.PORT, 10)) || 3000;
+const PORT = process.env.PORT || 2800;
 
 const production = async (
 	req: VercelRequest,
@@ -32,7 +32,11 @@ const production = async (
 	if (req.method === "POST") {
 		await bot.handleUpdate(req.body as unknown as Update, res);
 	} else {
-		res.status(200).json(`Listening to bot events... on port ${PORT} ${VERCEL_URL}`);
+		res
+			.status(200)
+			.json(
+				`Webhook is ${await bot.telegram.getWebhookInfo()} Listening to bot events... on port ${PORT} ${VERCEL_URL}`,
+			);
 	}
 	logger(`starting webhook on port: ${PORT}`);
 };
