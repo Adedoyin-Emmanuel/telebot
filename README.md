@@ -4,10 +4,10 @@ Telebot is a telegram bot starter kit. Built on [NodeJs](https://nodejs.org) and
 
 ## Features 👜
 
-1. Ease of use: Telebot is built on top of Telegraf, a modern bot framework for Node.js. Telebot comes with the configuration you need to do for both development and production. Similar folder configuration to a typical Node.js & Express project.
-2. Analytics and Logging: Telebot comes with LogSnag, a modern tracking tool for **SASS** that helps you track almost anything in your bot.
-3. Easy deployment: Easily deploy your telegram bot like any other **React, NextJs** apps. Telebot comes with extra config to help you deploy your bot on [Vercel](https://vercel.com)
-4. Service Architecture: Telebot comes with a service architecture that allows you to easily manage your bot services. Services like Databases, Email services, External API Integration and all can be easily integrated into your bot.
+1. **Ease of use**: Telebot is built on top of Telegraf, a modern bot framework for Node.js. Telebot comes with the configuration you need to do for both development and production. Similar folder configuration to a typical Node.js & Express project.
+2. **Analytics and Logging**: Telebot comes with LogSnag, a modern tracking tool for **SASS** that helps you track almost anything in your bot.
+3. **Easy deployment**: Easily deploy your telegram bot like any other **React, NextJs** apps. Telebot comes with extra config to help you deploy your bot on [Vercel](https://vercel.com)
+4. **Service Architecture**: Telebot comes with a service architecture that allows you to easily manage your bot services. Services like Databases, Email services, External API Integration and all can be easily integrated into your bot.
 
 ## Get Started 🏃
 
