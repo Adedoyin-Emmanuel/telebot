@@ -63,6 +63,7 @@ Telebot takes heavy inspiration from the following projects:
 ## License 📯
 
 Telebot is [MIT-licensed](LICENSE) open-source software by [Adedoyin Emmanuel Adeniyi](https://github.com/adedoyin-emmanuel) and [contributors](https://github.com/adedoyin-emmanuel/telebot/graphs/contributors):
+
 <a href="https://github.com/Adedoyin-Emmanuel/telebot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Adedoyin-Emmanuel/telebot" />
+   <img src="https://contrib.rocks/image?repo=Adedoyin-Emmanuel/telebot" />
 </a>
