@@ -1,4 +1,4 @@
-# Telebot
+# Telebot 🤖
 
 A production-ready Telegram bot starter built on **Cloudflare Workers** and **Telegraf**. Zero servers, zero cold starts, deployed globally at the edge.
 
