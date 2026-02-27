@@ -1,0 +1,21 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "telebot"
+main = "worker.ts"
+compatibility_date = "2024-09-25"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+# Uncomment to add environment variables
+# [vars]
+# MY_VAR = "my-value"
+
+# Uncomment to enable cron triggers (scheduled jobs)
+# [triggers]
+# crons = ["0 */6 * * *"]
+
+# Uncomment to add a KV namespace binding
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "your-kv-namespace-id"

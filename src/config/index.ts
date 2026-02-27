@@ -1,4 +1,7 @@
-import bot from "./bot";
-import logsnag from "./logsnag";
+export interface Config {
+  botToken: string;
+}
 
-export { bot, logsnag };
+export const getConfig = (env: any): Config => ({
+  botToken: env.BOT_TOKEN,
+});

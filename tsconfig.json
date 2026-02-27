@@ -1,14 +1,21 @@
 {
-	"compilerOptions": {
-		"strict": true,
-		"target": "esnext",
-		"moduleResolution": "node",
-		"module": "commonjs",
-		"skipLibCheck": true,
-		"sourceMap": true,
-		"outDir": "public",
-		"lib": ["esnext", "dom"],
-		"resolveJsonModule": true
-	},
-	"exclude": ["node_modules"]
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "noEmit": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "types": ["@cloudflare/workers-types"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
