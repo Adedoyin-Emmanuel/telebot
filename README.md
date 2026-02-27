@@ -78,7 +78,7 @@ npm run dev
 
 Wrangler starts a local dev server. Visit the URL shown in the terminal (e.g., `http://localhost:8787`) to auto-register the webhook.
 
-> **Note:** For local webhook testing, you'll need a tunnel like [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/) or [ngrok](https://ngrok.com/) to expose your local server to Telegram.
+> **Note:** For local webhook testing, you'll need a tunnel like [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/) or [Outray](https://outray.dev/) to expose your local server to Telegram.
 
 ### 4. Deploy to production
 
