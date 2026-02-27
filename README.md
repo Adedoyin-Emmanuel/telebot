@@ -51,7 +51,7 @@ telebot/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/chibuezedev/telebot.git
+git clone https://github.com/Adedoyin-Emmanuel/telebot.git
 cd telebot
 npm install
 ```
