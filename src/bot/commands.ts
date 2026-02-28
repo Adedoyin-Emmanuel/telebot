@@ -23,7 +23,7 @@ export function registerCommands(bot: Telegraf): void {
 
 async function handleStart(ctx: Context): Promise<void> {
 	await ctx.reply(
-		"Welcome! I'm Telebot. A Telegram bot running on Cloudflare Workers.\n\nUse /help to see available commands.",
+		"Welcome! I'm Telebot. A Telegram bot running on Cloudflare Workers, built by Adedoyin Emmanuel.\n\nUse /help to see available commands.",
 	);
 }
 

@@ -2,7 +2,7 @@
 
 A production-ready Telegram bot starter built on **Cloudflare Workers** and **Telegraf**. Zero servers, zero cold starts, deployed globally at the edge.
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Adedoyin-Emmanuel/telebot)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/adedoyin-Emmanuel/telebot/tree/main)
 
 ---
 
@@ -78,7 +78,7 @@ npm run dev
 
 Wrangler starts a local dev server. Visit the URL shown in the terminal (e.g., `http://localhost:8787`) to auto-register the webhook.
 
-> **Note:** For local webhook testing, you'll need a tunnel like [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/) or [Outray](https://outray.dev/) to expose your local server to Telegram.
+> **Note:** For local webhook testing, you'll need a tunnel like [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/) or [Outray](https://outray.dev/) to expose your local server to Telegram. Simply install Outray, and run `outray 8787`, it generates a url tunnel, visit that tunnel url to auto register the webhook.
 
 ### 4. Deploy to production
 
